@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "488631768696",
+    "firebase_url": "https://my-mailbox-fb570.firebaseio.com",
+    "project_id": "my-mailbox-fb570",
+    "storage_bucket": "my-mailbox-fb570.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488631768696:android:87215a65ee51b47d70ff8d",
+        "android_client_info": {
+          "package_name": "uk.nhs.leics.his.mymailbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "488631768696-tjuou66kdvk0er72hlejnm5v1tj5dr5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtkWuAV3JSVUEBMnIg8QxZzKfYNa3mWCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "488631768696-tjuou66kdvk0er72hlejnm5v1tj5dr5d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "488631768696-243ri3qoddc1m5b007j2l6hi4fr8uoo0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "uk.nhs.leics.his.mymailbox"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
