@@ -1,0 +1,71 @@
+<!-- Copyright © CommonTime Ltd. 2016 -->
+<!DOCTYPE html>
+<html>
+<head lang="en" themes="">
+    <meta charset="UTF-8">
+    <title>CommonTime Infinity Client</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+
+    <!-- Cordova -->
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+
+    <script src="assets.min.js"></script>
+
+    <style>
+        #splash-screen {
+            position: fixed;
+            background: linear-gradient(45deg, #15233b 43%,#0a4069 100%);
+            height: 100%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #splash-screen img {
+            width: 66.6%;
+            min-width: 100px;
+            max-width: 250px;
+        }
+
+        .view-frame {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="splash-screen" class="text-center" style="background: #1f5da9;">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQYlWOUj135n4EIwESMIoZRhdRRyMDAAAB4owI4K+gqSwAAAABJRU5ErkJggg==" alt="" style="width: auto; min-width: 0; max-width: none;">
+    </div>
+    <!-- Modal -->
+    <div class="modal" id="version-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Update available</h4>
+                </div>
+                <div class="modal-body">
+                    Do you wish to update to version <span class="version-number">(no version specified)</span> now?<br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="dismiss-button btn btn-default">Later</button>
+                    <button type="button" class="confirm-button btn btn-primary">Yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="view-frame" ng-class="{back: ($root.back)}"></div>
+
+    <script src="app.min.js"></script>
+
+
+
+</body></html>
