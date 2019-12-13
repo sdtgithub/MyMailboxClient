@@ -71,6 +71,7 @@
     <!--Plugin override: commontime-cordova-plugin-inappbrowser@1.6.2, in use: false, enabled: true-->
         <!-- <plugin name="commontime/cordova-plugin-inappbrowser" spec="https://github.com/commontime/cordova-plugin-inappbrowser#1.6.2"/> -->
 		<plugin name="cordova-plugin-inappbrowser" spec="https://github.com/apache/cordova-plugin-inappbrowser"/>
+		<plugin name="cordova-plugin-document-viewer" spec="https://github.com/sitewaerts/cordova-plugin-document-viewer"/>
         <plugin name="cordova-plugin-splashscreen" spec="3.2.2"/>
     <!--Plugin override: cordova-plugin-vibration@2.1.6-dev-ct-0.0.1, in use: false, enabled: true-->
         <plugin name="cordova-plugin-vibration" spec="https://github.com/commontime/cordova-plugin-vibration#2.1.6-dev-ct-0.0.1"/>
